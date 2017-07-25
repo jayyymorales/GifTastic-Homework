@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+    background-color: gray;
+    color: #008080;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.jumbotron {
+    box-sizing: border-box;
+    color: #008080;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button {
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 12px;
+    background-color: black;
+    border: 1px solid #008080;
+    color: white;
+}
+
+button:hover {
+    background-color: #008080;;
+    border: 1px solid white;
+    color: white;
+}
+button:focus {
+    font-weight: bolder;
+    background-color: white;
+    border: 1px solid #008080;
+    color: black;
+}
+
+.panel-primary>.panel-heading {
+    background-color: black;
+    color: white;
+
+}
+img {
+    margin-bottom: 25px;
+}
+p {
+    color: black;
+    font-weight: bolder;
+
+}
+.row {
+    border-radius: 20px;
+    background: black;
+    margin-bottom: 25px;
+}
+
+.panel.panel-primary {
+    border: 0px solid black;
+    padding: 0px;
+}
+
+#clear-all {
+    padding: 4px 15px;
+    font-weight: bolder;
+    margin-left: 50%;
+    background-color: black;
+    color: white;
+
+
+}
+
+.panel-body {
+    background-color: #2C3539;
+}
